@@ -1,0 +1,21 @@
+.dataTables_wrapper {
+    width: 50%;
+}
+
+.dataTables_wrapper>:nth-child(1) {
+    background: red;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.dataTables_wrapper>:nth-child(2) {
+    background: white;
+    border-radius: none !important;
+    border: none !important;
+    height: 400px;
+}
+
+.dataTables_wrapper>:nth-child(3)>nav {
+    background: red;
+    border-radius: 0 0 5px 5px;
+}
